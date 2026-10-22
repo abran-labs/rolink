@@ -25,7 +25,7 @@ Roblox:
 
 ```toml
 [server-dependencies]
-Rolink = "abran-labs/rolink@=0.1.0"
+Rolink = "abran-labs/rolink@=0.1.1"
 ```
 
 ## Message types

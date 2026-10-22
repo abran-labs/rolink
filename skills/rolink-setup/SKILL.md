@@ -46,7 +46,7 @@ one if the project has it; otherwise add one and proxy `/api/rolink` to it.
 
 ## 2. Game
 
-1. `wally.toml`: `[server-dependencies]` `Rolink = "abran-labs/rolink@0.1.0"`, then `wally install`.
+1. `wally.toml`: `[server-dependencies]` `Rolink = "abran-labs/rolink@0.1.1"`, then `wally install`.
 2. Enable **Allow HTTP Requests** (Studio → File → Experience Settings → Security).
 3. Store the key as experience secret `rolink_key`, domain = the site host. See "Secrets" below.
 4. Connect once from a server Script/Service:

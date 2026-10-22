@@ -1,6 +1,6 @@
 {
   "name": "@abran-labs/rolink",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A two-way link between Roblox and web.",
   "type": "module",
   "license": "MIT",
