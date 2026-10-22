@@ -43,8 +43,7 @@
     "test": "bun test",
     "prepack": "bun run build",
     "build:clean": "rm -rf dist",
-    "build:emit": "tsc -p tsconfig.build.json",
-    "prepare": "bun run build"
+    "build:emit": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "@types/bun": "latest",

@@ -17,4 +17,4 @@ selene src
 wally package --list
 ```
 
-Source manifest stays `private = true`. Versions are immutable.
+Published to public Wally (wally.run). Versions are immutable; bump to release.
