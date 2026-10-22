@@ -91,3 +91,14 @@ end)
   The game acks each command and never runs the same id twice.
 - Failures back off up to 5 minutes. A `401` stops the link for that server.
 - Browsers can read only keys listed in `publicState`. Everything else needs the key.
+
+## AI agents
+
+The repo ships an agent skill that walks through both installs, the shared key,
+and the Roblox secret (set through Open Cloud when an API key is available):
+
+```sh
+npx skills add abran-labs/rolink
+```
+
+Studio playtests need the key added by hand under Experience Settings → Security → Local Secrets.

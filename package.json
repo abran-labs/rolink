@@ -47,6 +47,8 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/libsodium-wrappers": "^0.8.2",
+    "libsodium-wrappers": "^0.8.4",
     "typescript": "^5.9.3"
   },
   "keywords": [
