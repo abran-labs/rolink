@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="380" viewBox="0 0 1800 380" role="img" aria-labelledby="title desc">
   <title id="title">Rolink</title>
-  <desc id="desc">Rolink wordmark beside a square game node linked to a round site node.</desc>
+  <desc id="desc">Rolink wordmark beside a square Roblox node linked to a round web node.</desc>
   <defs>
     <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#f1eadc"/><stop offset="1" stop-color="#c6bdb0"/>
@@ -23,7 +23,7 @@
   </g>
   <g fill="#f1eadc">
     <text x="646" y="190" font-family="Inter, Arial, sans-serif" font-size="126" font-weight="600" letter-spacing="-5">Rolink</text>
-    <text x="651" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="600" letter-spacing="2" fill="#c9bfb0">TWO-WAY LINK BETWEEN ROBLOX GAMES AND WEBSITES.</text>
+    <text x="651" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="600" letter-spacing="2" fill="#c9bfb0">TWO-WAY LINK BETWEEN ROBLOX AND WEB.</text>
   </g>
   <path d="M648 282H1400" stroke="#5a5449" stroke-width="2"/>
   <path d="M648 282H870" stroke="#e77c66" stroke-width="4"/>

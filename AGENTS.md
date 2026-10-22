@@ -1,6 +1,6 @@
 # Rolink agent guide
 
-Two-way link between Roblox games and websites. One repo, two packages, one protocol.
+Two-way link between Roblox and web. One repo, two packages, one protocol.
 
 | Path | Package | Registry |
 | --- | --- | --- |

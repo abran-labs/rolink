@@ -1,6 +1,6 @@
 [package]
 name = "abran-labs/rolink"
-description = "Two-way link between a Roblox game and a website: events, state, and commands."
+description = "A two-way link between Roblox and web."
 version = "0.1.0"
 license = "MIT"
 authors = ["Abran Labs"]

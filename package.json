@@ -1,7 +1,7 @@
 {
   "name": "@abran-labs/rolink",
   "version": "0.1.0",
-  "description": "Two-way link between Roblox games and websites. Events, state, and commands over one HTTP endpoint.",
+  "description": "A two-way link between Roblox and web.",
   "type": "module",
   "license": "MIT",
   "publishConfig": {
