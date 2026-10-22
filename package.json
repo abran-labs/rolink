@@ -1,0 +1,63 @@
+{
+  "name": "@abran-labs/rolink",
+  "version": "0.1.0",
+  "description": "Two-way link between Roblox games and websites. Events, state, and commands over one HTTP endpoint.",
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Abran Labs <abran.labs@gmail.com>",
+  "homepage": "https://github.com/abran-labs/rolink#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abran-labs/rolink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abran-labs/rolink/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "!src/**/*.test.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun run build:clean && bun run build:emit",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test",
+    "prepack": "bun run build",
+    "build:clean": "rm -rf dist",
+    "build:emit": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "roblox",
+    "roblox-api",
+    "game",
+    "website",
+    "webhook",
+    "sync",
+    "wally",
+    "luau",
+    "typescript"
+  ]
+}
