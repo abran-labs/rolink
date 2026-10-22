@@ -28,24 +28,15 @@ Roblox:
 Rolink = "abran-labs/rolink@=0.1.0"
 ```
 
-## What it carries
+## Message types
 
 | Kind | Direction | Use it for |
 | --- | --- | --- |
-| Event | Roblox → web | Things that happened: a rare hatch, a purchase |
-| State | Roblox → web | Latest value per key: global stats, server count |
-| Command | web → Roblox | Things the game should do: announce, refresh config |
+| Event | Roblox → web | Something that happened in the game |
+| State | Roblox → web | The latest value for a key |
+| Command | web → Roblox | An action the game should take |
 
-## How it moves
-
-| | Roblox | Web |
-| --- | --- | --- |
-| Pushes | ✅ every 30 seconds | ❌ |
-| Commands reach Roblox | on its next push | queued until then |
-
-## AI agents
-
-The repo ships an agent skill that sets up both sides, the shared key, and the Roblox secret:
+## For AI agents
 
 ```sh
 npx skills add abran-labs/rolink
